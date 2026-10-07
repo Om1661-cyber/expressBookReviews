@@ -1,0 +1,19 @@
+TASK 1 - GitHub Repository Fork
+
+GitHub Repository:
+https://github.com/Om1661-cyber/expressBookReviews
+
+Original Repository:
+https://github.com/ibm-developer-skills-network/expressBookReviews
+
+Command:
+curl.exe -s https://api.github.com/repos/Om1661-cyber/expressBookReviews | Select-String '"full_name"|"fork"|"parent"'
+
+Output:
+"full_name": "Om1661-cyber/expressBookReviews",
+  "fork": true,
+  "parent": {
+    "full_name": "ibm-developer-skills-network/expressBookReviews",
+    "fork": false,
+    "full_name": "ibm-developer-skills-network/expressBookReviews",
+    "fork": false,
