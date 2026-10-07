@@ -1,0 +1,7 @@
+Task 7 – User Registration
+
+Command:
+curl.exe -X POST "http://localhost:5000/register" -H "Content-Type: application/json" --data-binary "@register.json"
+
+Output:
+{"message":"User registered successfully"}

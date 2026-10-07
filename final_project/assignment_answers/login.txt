@@ -1,0 +1,7 @@
+Task 8 – User Login
+
+Command:
+curl.exe -X POST "http://localhost:5000/customer/login" -H "Content-Type: application/json" --data-binary "@login.json"
+
+Output:
+{"message":"Login successful","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InN0dWRlbnQwOCIsI..."}

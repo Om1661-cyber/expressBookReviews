@@ -1,0 +1,7 @@
+Task 5 – Get Books by Title
+
+Command:
+curl.exe "http://localhost:5000/title/Things%20Fall%20Apart"
+
+Output:
+[{"author":"Chinua Achebe","title":"Things Fall Apart","reviews":{}}]

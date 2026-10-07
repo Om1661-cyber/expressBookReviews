@@ -1,0 +1,7 @@
+Task 6 – Get Initial Book Review
+
+Command:
+curl.exe http://localhost:5000/review/1
+
+Output:
+{}

@@ -1,0 +1,26 @@
+TASK 9 - Add or Modify a Book Review
+
+Endpoint:
+PUT http://localhost:5000/customer/auth/review/1
+
+Command:
+curl.exe -X PUT "http://localhost:5000/customer/auth/review/1" -H "Content-Type: application/json" -H "Authorization: Bearer $token" --data-binary "@review.json"
+
+Request Body:
+{"review":"This is an excellent book."}
+
+Expected/Actual Response:
+{
+  "message": "Review added/updated successfully",
+  "reviews": {
+    "student08": "This is an excellent book."
+  }
+}
+
+Verification Command:
+curl.exe http://localhost:5000/review/1
+
+Verification Response:
+{
+  "student08": "This is an excellent book."
+}
